@@ -23,7 +23,7 @@ function [bestA, bestC, bestQ, bestR, bestInitx, bestInitV, LL] = ...
 % indicates that something has gone wrong e.g., a variance has collapsed to 0.
 %
 % There are several optional arguments, that should be passed in the following order.
-% learn_kalman_rank(data, A, C, Q, R, initx, initV, lambdaA, lambda2A, barrier, max_iter, diagQ, diagR, ARmode, constr_fun, varargin)
+% learn_kalman_sparse(data, A, C, Q, R, initx, initV, lambdaA, lambda2A, barrier, max_iter, diagQ, diagR, ARmode, constr_fun, varargin)
 % MAX_ITER specifies the maximum number of EM iterations (default 10).
 % DIAGQ=1 specifies that the Q matrix should be diagonal. (Default 0).
 % DIAGR=1 specifies that the R matrix should also be diagonal. (Default 0).
